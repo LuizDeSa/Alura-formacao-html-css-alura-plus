@@ -249,3 +249,17 @@ body{
         max-width: max-content;
     }
 }
+
+@media (max-width: 530px){
+    .secundario{
+        margin: 0;
+    }
+
+    .container__caixa {
+        margin: 1em;
+    }
+
+    .container__imagem{
+        max-width: 250px;
+    }
+}
