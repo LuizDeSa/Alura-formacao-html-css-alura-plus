@@ -134,7 +134,7 @@ body{
 
 .footer{
     text-align: center;
-    margin: 5em 0;
+    margin: 5em 1em;
 }
 
 .footer__links{
@@ -236,7 +236,7 @@ body{
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 720px){
     .container{
         height: auto;
     }
@@ -247,6 +247,10 @@ body{
 
     .dispositivos__lista__item{
         max-width: max-content;
+    }
+
+    .principal{
+        background-image: none;
     }
 }
 
